@@ -1,0 +1,38 @@
+<!-- Kullanıcının verilerini çıktı olarak gösteren bir sayfa oluşturun -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../static/css/style.css"> 
+  <title>Akıllı evler için enerji verimlilik hesaplayıcısı</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__text">
+      <h1>Evinizin enerji verimliliğini hesaplayın!</h1>
+      <p>Girişimde bulunun ve aşırı enerji tüketimi sorununu çözün!</p>
+    </div>
+  </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sonuçları</title>
+    {% block content %}
+    <h1>Formu doldurduğunuz için teşekkürler!</h1>
+    <h3>Sizin e-posta adresiniz'e evinize gelmeden 3 ve 5 gün önce e- posta yollayacağız!</h3>
+    <p>Adınız: {{name}}</p>
+    <p>E-posta Adresi: {{emai }}</p>
+    <p>Adresiniz: {{address}}</p>
+    <p>Tarih: {{date}}</p>
+    {% endblock %}
+
+</head>
+<body>
+    
+</body>
+</html>
